@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b53">
+  <title>Sign in | Northstar BSIT Attendance</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body class="login-page" data-page="login">
+  <aside class="login-aside">
+    <a class="login-brand" href="index.html"><span class="brand-mark">N</span><span><strong>Northstar</strong><small>BSIT ATTENDANCE</small></span></a>
+    <div class="login-aside-copy"><div class="eyebrow">CAMPUS ATTENDANCE, IN FOCUS</div><h1>Make every class count.</h1><p>A clearer view of class attendance, student progress, and the rhythm of your BSIT program.</p></div>
+    <div class="login-aside-graphic" aria-hidden="true"><div class="graphic-window"><div class="graphic-top"><i></i><i></i><i></i></div><div class="graphic-row"></div><div class="graphic-row short"></div><div class="graphic-bars"><i></i><i></i><i></i><i></i><i></i></div></div></div>
+    <small class="login-aside-note">Northstar · Student Attendance Management System</small>
+  </aside>
+  <main class="login-main"><section class="login-card">
+    <a class="login-mobile-brand" href="index.html"><span class="brand-mark">N</span><span><strong>Northstar</strong><small>BSIT ATTENDANCE</small></span></a>
+    <h2>Welcome back</h2><p>Sign in to continue to your attendance workspace.</p>
+    <form id="login-form" novalidate>
+      <label class="login-label" for="username">Username</label><div class="login-field"><input id="username" name="username" autocomplete="username" placeholder="Enter your username"></div>
+      <label class="login-label" for="password">Password</label><div class="login-field password-field"><input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password"><button class="password-toggle" type="button" data-toggle-password aria-label="Show password">Show</button></div>
+      <div class="login-options"><label class="remember"><input type="checkbox" name="remember"> Remember me</label><a class="forgot-link" href="#" id="forgot-password">Forgot password?</a></div>
+      <div class="login-error" id="login-error" role="alert" aria-live="polite"></div>
+      <label class="login-role">Demo workspace<select id="login-role"><option value="admin">Admin portal</option><option value="teacher">Teacher portal</option><option value="student">Student portal</option></select></label>
+      <button class="login-submit" type="submit">Sign in to workspace <span aria-hidden="true">→</span></button>
+    </form>
+  </section></main>
+</body>
+</html>
